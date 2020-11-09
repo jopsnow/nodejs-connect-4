@@ -1,0 +1,89 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.center { 
+    justify-content: center; 
+}  
+.center li {
+    border: 2px solid black;
+}
+    
+.flex-item {
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    line-height: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.vis { visibility:visible }
+
+.red {
+    background: crimson;
+}
+.blue {
+    background: navy;
+}
+.winner-node {
+    background: whitesmoke;
+}
+
+body {
+    background: navajowhite;
+}
+
+.col {
+    border-radius: 20%;
+    cursor: pointer;
+    color: black;
+}
+
+.disabled-col {
+    background: gray !important;
+}
+
+.disabled-col:hover {
+    background: gray !important;
+}
+
+.col:hover {
+    background: red;
+}
+
+.data-cell {
+    border-radius: 50%;
+}
+#start-button {
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
+#id {
+    font-size: 16px;
+}
+
+#player-number {
+    color: crimson;
+}
